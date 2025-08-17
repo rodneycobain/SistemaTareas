@@ -14,7 +14,7 @@ public class TareaServicio implements ITareaServicio{
     private TareaRepositorio tareaRepositorio;
 
     @Override
-    public List<Tarea> listraTareas() {
+    public List<Tarea> listarTareas() {
         return tareaRepositorio.findAll();
     }
 

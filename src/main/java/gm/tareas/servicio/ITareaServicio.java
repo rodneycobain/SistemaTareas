@@ -6,7 +6,7 @@ import jakarta.persistence.criteria.CriteriaBuilder;
 import java.util.List;
 
 public interface ITareaServicio {
-    public List<Tarea> listraTareas();
+    public List<Tarea> listarTareas();
 
     public Tarea buscarTareaPorId(Integer idTarea);
 
