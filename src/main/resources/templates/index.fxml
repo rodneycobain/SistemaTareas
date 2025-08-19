@@ -14,7 +14,7 @@
          <font>
             <Font name="System Bold" size="25.0" />
          </font></Label>
-      <TableView fx:id="tareaTabla" layoutX="241.0" layoutY="102.0" prefHeight="198.0" prefWidth="375.0">
+      <TableView fx:id="tareaTabla" layoutX="241.0" layoutY="102.0" onMouseClicked="#cargarTareaFormulario" prefHeight="198.0" prefWidth="375.0">
         <columns>
           <TableColumn fx:id="idTareaColumna" prefWidth="75.0" text="ID" />
           <TableColumn fx:id="nombreTareaColumna" prefWidth="88.00001525878906" text="Tarea" />
